@@ -31,7 +31,7 @@ export class CatsService {
 
   update(id: number, updateCatDto: UpdateCatDto) {
     const cat = this.findOne(id);
-    const updatedCat = { ...cat, ...updateCatDto };
+    Object.assign(cat, updateCatDto);
     return cat;
   }
 
