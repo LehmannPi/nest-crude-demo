@@ -25,6 +25,18 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Project Activities & Purpose
+
+This project is a hands-on practice of NestJS by the author. It includes:
+
+- Building RESTful endpoints for managing cats (CRUD operations)
+- Implementing controllers, services, and DTOs
+- Using pipes for validation and type conversion
+- Applying global validation and error handling
+- Writing unit and e2e tests
+
+The goal is to learn and demonstrate key NestJS concepts in a practical way.
+
 ## Project setup
 
 ```bash
